@@ -1,6 +1,6 @@
 package String_HW;
 
-public class FirstHw {
+public class First_Hw_Datatypes {
 
     public static void main(String[] args) {
         byte number = 24;
