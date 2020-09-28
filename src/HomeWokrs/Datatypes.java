@@ -1,4 +1,4 @@
-package String_HW;
+package HomeWokrs;
 
 public class First_Hw_Datatypes {
 
