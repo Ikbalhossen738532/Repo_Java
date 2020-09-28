@@ -36,7 +36,7 @@ public class String_Hw {
        String lastName =myFullName.substring(lastIndexOfSpace+1);
 
        // does my lastname starts with k
-        boolean lastNameStw_k = lastName.startsWith("S");
+        boolean lastNameStw_k = lastName.startsWith("s");
         System.out.println("my last name is : " + lastName + " & does it start with K :" + lastNameStw_k);
 
         //last alphabet of my first name
