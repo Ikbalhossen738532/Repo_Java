@@ -1,4 +1,4 @@
-package HomeWokrs;
+package HomeWorks;
 
 public class If_Else_HW {
     public static void main(String[] args) {

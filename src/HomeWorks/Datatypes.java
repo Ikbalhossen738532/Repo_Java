@@ -1,6 +1,6 @@
 package HomeWokrs;
 
-public class First_Hw_Datatypes {
+public class Datatypes {
 
     public static void main(String[] args) {
         byte number = 24;
