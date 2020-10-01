@@ -1,4 +1,6 @@
-package HomeWorks;
+package HomeWokrs;
+
+import java.util.Arrays;
 
 public class String_Hw {
     public static void main(String[] args) {
@@ -34,7 +36,11 @@ public class String_Hw {
        String lastName =myFullName.substring(lastIndexOfSpace+1);
 
        // does my lastname starts with k
+<<<<<<< HEAD:src/HomeWorks/String_Hw.java
         boolean lastNameStw_k = lastName.toUpperCase().startsWith("K");
+=======
+        boolean lastNameStw_k = lastName.startsWith("k");
+>>>>>>> 58d1124541605456da9fe343631c122952bf57e4:src/HomeWokrs/String_Hw.java
         System.out.println("my last name is : " + lastName + " & does it start with K :" + lastNameStw_k);
 
         //last alphabet of my first name

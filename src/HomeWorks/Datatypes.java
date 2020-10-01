@@ -1,4 +1,4 @@
-package HomeWokrs;
+package HomeWorks;
 
 public class Datatypes {
 
