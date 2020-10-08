@@ -2,7 +2,7 @@ package Class7;
 
 import java.util.Arrays;
 
-public class HomeWork {
+public class HomeWork_7 {
     public static void main(String[] args) {
 
         // Subject - Homework-5
@@ -67,15 +67,32 @@ public class HomeWork {
         /**
          * Change the string to title case
          */
-        String line = "once upOn a tiMe in the UNIVERSE";   //  Once Upon A Time In The Universe
-        System.out.println("Line (Before modification) : " + line);
+       // String line = "once upOn a tiMe in the UNIVERSE";   //  Once Upon A Time In The Universe
+        //System.out.println("Line (Before modification) : " + line);
         // code
+//       String newLine = line.toLowerCase();
+//        System.out.println(newLine);
+//
+//        String[]splitLine= newLine.split(" ");
+//        int length =splitLine.length;
+//        String f = newLine.substring(0,1).toUpperCase();
+//        int r = f.length();
+//
+//       for(int q=r;q<=length;q++){
+//           String sa = splitLine[r];
+//
+//       }
+        String line = "once upOn a tiMe in the UNIVERSE";
+        System.out.println(line);
+        String[] str = line.toLowerCase().split(" ");
+        line = "";
+        for(int b=0; b<str.length; b++) {
+            line = line + " " + str[b].substring(0,1).toUpperCase()+str[b].substring(1);
+        }
+        System.out.println(line);
 
-        String[]splitLine= line.split(" ");
-        int w = 0;
-     //  String split = line.substring(0,1);
-        //System.out.println(split.toUpperCase());
-        System.out.println("Line (After modification) : " + line);
+
+
 
 
         System.out.println("***********************");
