@@ -1,7 +1,5 @@
 package Class7;
 
-import java.util.Arrays;
-
 public class HomeWork_7 {
     public static void main(String[] args) {
 

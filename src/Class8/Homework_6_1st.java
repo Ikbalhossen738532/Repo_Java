@@ -22,7 +22,7 @@ public class Homework_8_1st {
 
     }
 
-    public static int number(int ...arr) {
+    public static int number(int ...arr) { //this 3 dots also an array
         int sum=0;
         int length =arr.length;
 
